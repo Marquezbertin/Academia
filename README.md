@@ -19,7 +19,7 @@ O repositório está organizado da seguinte forma:
 index.html: Página inicial do site.
 
 ##  Instruções de uso
-Para utilizar o site, basta clonar este repositório em seu ambiente local e abrir o arquivo index.htmlem seu navegador. A partir daí, você poderá navegar pelas diferentes páginas do site e explorar seus recursos.
+Para utilizar o site, basta clonar este repositório em seu ambiente local e abrir o arquivo index.htmlem seu navegador. 
 
 ## Contribuição
 Contribuições para o aprimoramento do site são bem-vindas. Caso tenha sugestões, correções de bugs ou melhorias a serem feitas, sinta-se à vontade para abrir uma issue neste repositório ou enviar um pull request.
