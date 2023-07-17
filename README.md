@@ -1,4 +1,4 @@
-# academia fitness
+# Academia Fitness
 Este repositório contém o código-fonte e os arquivos necessários para o site desenvolvido para uma academia fitness.
 
 ## Descrição
