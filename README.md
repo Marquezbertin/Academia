@@ -17,6 +17,9 @@ O repositório está organizado da seguinte forma:
 /js: Contém os arquivos JavaScript usados ​​no site.
 /images: Contém as imagens utilizadas no site.
 index.html: Página inicial do site.
+## Prototipo
+
+/figma: Contem o prototipo do site em arquivo figma 
 
 ##  Instruções de uso
 Para utilizar o site, basta clonar este repositório em seu ambiente local e abrir o arquivo index.htmlem seu navegador. 
