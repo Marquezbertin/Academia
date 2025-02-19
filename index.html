@@ -1,361 +1,120 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
 
- <head>
-	
-	<meta charset="utf-8">
-
-    
-    <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-    <![endif]-->       
-
-	<link rel="stylesheet" type="text/css" href="css/boot.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/boot.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/ico" />
-
-	<title>Sua Academia</title>
-
- </head>
+    <title>Sua Academia</title>
+</head>
 
 <body>
-
-<header class="main_header container">
-        
-    <div class="content">
-    
-        <div class="main_header_logo">
-            <a href="index.html" title="Sua Academia"><img src="img/logo.png" alt="Sua Academia" title="Sua Academia"/></a>
+    <header class="main_header container py-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="index.html" title="Sua Academia">
+                <img src="img/logo.png" alt="Sua Academia" class="img-fluid" />
+            </a>
+            <nav class="d-none d-md-block">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#modalidades" class="nav-link">Modalidades</a></li>
+                    <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
+    </header>
 
-        <div class="icon icon-menu mobile_action"></div>
-
-        <ul class="main_header_nav" id="top">
-
-            <li class="main_header_nav_item"><a href="#inicio" class="scrollSuave menuAtivo" title="Início"> Início</a></li>
-            <li class="main_header_nav_item"><a href="#modalidades" class="scrollSuave" title="Modalidades"> Modalidades</a></li>
-            <li class="main_header_nav_item"><a href="#galeria" class="scrollSuave" title="Galeria de Fotos"> Galeria de Fotos</a></li>
-            <li class="main_header_nav_item"><a href="#contato" class="scrollSuave" title="Contato"> Contato</a></li>
-
+    <div class="collapse" id="mobileMenu">
+        <ul class="nav flex-column bg-light p-3">
+            <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#modalidades" class="nav-link">Modalidades</a></li>
+            <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
+            <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
         </ul>
-
-        <div class="clear"></div>
-    
     </div>
 
-</header>
+    <main class="container mt-4">
+        <section id="inicio" class="text-center py-5 bg-dark text-white">
+            <h1>VOCÊ FITNESS</h1>
+            <p>Seu corpo mais saudável.</p>
+            <img src="uploads/capa/banner-home.jpg" class="img-fluid mt-3" alt="Você Fitness">
+        </section>
 
-    <main class="main_content container">
-
-        <section id="inicio" class="section-chamada container">
-            
-            <div class="content">
-                
-                <article class="topoPag">
-                  <div class="mascara">                              
-                          
-                      <div class="centraliza">
-                          <h1 class="branco"> VOCÊ FITNESS</h1>
-                          <p class="branco">Seu corpo mais Saudável.</b></p>
-                      </div>                              
-                                                        
-                    <img src="uploads/capa/banner-home.jpg" alt="Você Fitness" title="Você Fitness"/>
-
-                  </div>
-                </article>
-            
-            <div class="clear"></div>
+        <section id="modalidades" class="py-5">
+            <h2 class="text-center text-success">Modalidades</h2>
+            <div class="row mt-4">
+                <div class="col-md-4 text-center">
+                    <img src="uploads/modalidades/musculacao.jpg" class="img-fluid" alt="Musculação">
+                    <h3>Musculação</h3>
+                    <p>Trabalhe músculos e fortaleça seu corpo.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="uploads/modalidades/lutas.jpg" class="img-fluid" alt="Lutas">
+                    <h3>Lutas</h3>
+                    <p>Aprenda técnicas de defesa e melhore o condicionamento.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="uploads/modalidades/ginastica.jpg" class="img-fluid" alt="Ginásticas">
+                    <h3>Ginástica</h3>
+                    <p>Melhore sua flexibilidade e equilíbrio.</p>
+                </div>
             </div>
+        </section>
 
-        </section><!--Fecha Section Chamada-->
-       
-        <section id="modalidades" class="section-modalidades container">
-            
-            <div class="content">
-                
-                <h1 class="title center verde">Modalidades</h1>
-                
-                <article class="artigos-modalidades">
-
-                    <div class="capa">
-                        
-                        <img src="uploads/modalidades/musculacao.jpg" alt="Musculação" title="Musculação"/>
-
-                    </div><!--capa-->
-
-                    <div class="desc">  
-                      <h2><a href="#" title="Musculação">Musculação</a></h2>
-                      <p>A musculação é uma modalidade que conta com movimentos, exercícios e grupos musculares que podem ser trabalhados em um único treino.</p>
-                    </div><!--desc-->
-
-                </article><!--1-->
-
-                <article class="artigos-modalidades">
-
-                    <div class="capa">
-                        
-                        <img src="uploads/modalidades/lutas.jpg" alt="Lutas" title="Lutas"/>
-
-                    </div><!--capa-->
-
-                    <div class="desc">  
-                      <h2><a href="#" title="Lutas">Lutas</a></h2>
-                      <p>As lutas são caracterizadas pelo uso de técnicas de agarramento, derrubadas e golpes que podem ser realizadas por dois ou mais competidores.</p>
-                    </div><!--desc-->
-
-                </article><!--2-->
-
-                <article class="artigos-modalidades">
-
-                    <div class="capa">
-                        
-                        <img src="uploads/modalidades/ginastica.jpg" alt="Ginásticas" title="Ginásticas"/>
-
-                    </div><!--capa-->
-
-                    <div class="desc">  
-                      <h2><a href="#" title="Ginásticas">Ginásticas</a></h2>
-                      <p>A ginástica é uma prática que trabalha capacidades físicas do corpo humano, como força, flexibilidade e consciência corporal.</a></p>
-                    </div><!--desc-->
-
-                </article><!--3-->
-
-            
-            <div class="clear"></div>
+        <section id="galeria" class="py-5 bg-light text-center">
+            <h2>Galeria de Fotos</h2>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <img src="uploads/galeria/1.jpg" class="img-fluid rounded shadow" alt="Galeria 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="uploads/galeria/2.jpg" class="img-fluid rounded shadow" alt="Galeria 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="uploads/galeria/3.jpg" class="img-fluid rounded shadow" alt="Galeria 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="uploads/galeria/4.jpg" class="img-fluid rounded shadow" alt="Galeria 4">
+                </div>
             </div>
+        </section>
 
-        </section><!--Fecha Section Treinos-->
-
-        <section id="galeria" class="section-galeria container">
-            
-            <div class="content">
-                
-                <h2 class="title center branco">Galeria de Fotos</h2>
-
-                <div class="galeria-academia">
-                   
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/1.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/1.jpg">
-         
-                    </article>
-
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/2.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/2.jpg">
-         
-                    </article>
-
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/3.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/3.jpg">
-         
-                    </article>
-
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/4.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/4.jpg">
-         
-                    </article>
-
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/5.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/5.jpg">
-         
-                    </article>
-
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/6.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/6.jpg">
-         
-                    </article>
-
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/7.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/7.jpg">
-         
-                    </article>
-
-                    <article class="foto">
-                       
-                       <div class="mascara"></div>
-                       <a href="uploads/galeria/8.jpg" title="veja" class="image-link"> <i class="icon icon-search"></i> </a>  
-                       <img src="uploads/galeria/8.jpg">
-         
-                    </article>
-
-
-                </div><!--Galeria Barber-->
-
-            
-            <div class="clear"></div>
-            </div>
-
-        </section><!--Fecha Section Galeria-->
-
-        <section id="contato" class="section-contato container">
-            
-            <div class="content">
-
-                <h2 class="title center verde">Fale Conosco</h2>
-                                
-                <div class="coluna">
-
-                    <form method="post" action="#" class="formulario">
-                        
-                        <label>  
-                            
-                            <input type="text" name="nome" class="campo" placeholder="Nome" required="">
-                        
-                        </label>
-
-                        <label>  
-                            
-                            <input type="text" name="email" class="campo" placeholder="E-mail" required="">
-                        
-                        </label>
-
-                        <label>  
-                            
-                            <textarea name="mensagem" class="campo" placeholder="Deixe sua mensagem" rows="5" required=""></textarea>                    
-                        
-                        </label>
-
-                        <label>  
-                            
-                            <input type="hidden" name="acao" value="enviar">
-                            <button class="btn-enviar" title="Enviar">Enviar</button>
-
-                        </label>
-
+        <section id="contato" class="py-5">
+            <h2 class="text-center text-success">Fale Conosco</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="E-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button class="btn btn-success w-100">Enviar</button>
                     </form>
-
-                </div><!---Div Coluna-->
-                
-                <div class="coluna">
-
-                    <div class="info">
-                      
-                        <p>
-                            A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica<br><br>
-                            para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real.<br><br>
-                        </p>
-
-                        <p><i class="icon icon-calendar"></i> Atendimento: Segunda a Sexta</p>
-                        <p><i class="icon icon-pin-1"></i> Local: Estado e Cidade</p>
-                        <p><i class="icon icon-phone"></i> 19 0000-0000</p>
-                        <p><i class="icon icon-whatsapp"></i> 19 90000-0000</p>
-                        <p><i class="icon icon-clock-2"></i> 9:00 ás 20:00</p>
-                    
-                    </div>
-
-                </div><!---Div Coluna-->
-            
-            <div class="clear"></div>
+                </div>
+                <div class="col-md-6">
+                    <p><i class="icon icon-calendar"></i> Atendimento: Segunda a Sexta</p>
+                    <p><i class="icon icon-pin-1"></i> Local: Estado e Cidade</p>
+                    <p><i class="icon icon-phone"></i> 19 0000-0000</p>
+                </div>
             </div>
-
-        </section><!--Fecha Section Contato-->
-
-
+        </section>
     </main>
 
-<footer class="main_footer container">
-      
-      <div class="content">
-
-          <div class="colfooter">
-              
-              <div class="titleFooter"> <span class="icon icon-world"></span> Menu</div>
-              <ul>
-              
-                <li><a href="#inicio" class="scrollSuave" title="Página Inícial">Página Inícial</a></li>
-                <li><a href="#modalidades" class="scrollSuave" title="Modalidades">Modalidades</a></li>
-                <li><a href="#galeria" class="scrollSuave" title="Galeria de Fotos">Galeria de Fotos</a></li>
-                <li><a href="#contato" class="scrollSuave" title="Contato">Contato</a></li>
-              
-              </ul>
-
-          </div><!--Col Footer 1-->        
-
-          <div class="colfooter">
-             
-            <div class="titleFooter"> <span class="icon icon-share-outline"></span> Redes Sociais</div>  
-            <a href="#" class="redesocial" title="Facebook"><span> <i class="icon icon-facebook"></i> /suacademia</span></a>            
-            <a href="#" class="redesocial" title="Instagram"><span> <i class="icon icon-instagram"></i> /suacademia</span></a>            
-            <a href="#" class="redesocial" title="Twitter"><span> <i class="icon icon-twitter"></i> /suacademia</span></a>            
-            <a href="#" class="redesocial" title="Pinterest"><span> <i class="icon icon-pinterest"></i> /suacademia</span></a>            
-
-          </div><!--Col Footer 2-->
-
-          <div class="colfooter">
-             
-            <div class="titleFooter"> <span class="icon icon-bubble-2"></span> Atendimentos</div>
-            <p><i class="icon icon-mail"></i> contato@seusite.com.br</p>
-            <p><i class="icon icon-phone"></i> 19 90000-0000</p>
-            <p><i class="icon icon-whatsapp"></i> 19 90000-0000</p>
-
-          </div><!--Col Footer 3-->
-
-          <div class="colfooter">
-             
-            <div class="titleFooter"> <span class="icon icon-mail-3"></span> Newsletter</div>  
-            
-              <form class="my-formulario" action="#" method="post">
-                      
-                   <label class="label">
-                                    
-                         <input class="effect-line" type="text" placeholder="Seu nome" autocomplete="off">
-                         <span class="focus-border"></span>
-                                
-                   </label>
-
-                    <label class="label">
-                                    
-                         <input class="effect-line" type="text" placeholder="Seu e-mail" autocomplete="off">
-                         <span class="focus-border"></span>
-                                
-                    </label>
-
-                    <input type="hidden" name="acao" value="enviar">
-                    <button class="btn-enviar" title="Enviar">Enviar</button>
-
-              </form>
-
-          </div><!--Col Footer 4-->
-
-
-          <div class="clear"></div>
-      
-      </div><!--Contant-->
-
-      <div class="main_footer_copy">
-          
-          <p class="m-b-footer"> Seusite - 2023, todos os direitos reservados.</p> 
-         
-      
-      </div>
-
-  </footer>
-
-<script src="js/jquery.js"></script>
-<script src="js/scripts.js"></script>	
-<script src="js/jquery.magnific-popup.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
